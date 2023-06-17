@@ -21,6 +21,5 @@ public class Validator {
         if (!Objects.equals(password, passwordConfirm)) {
             throw new WrongPasswordException("  Пароли не совпадают ");
         }
-
     }
 }
